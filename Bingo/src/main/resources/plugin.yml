@@ -1,0 +1,20 @@
+name: Bingo
+version: '${project.version}'
+main: bingo.Main
+api-version: 1.18
+commands:
+  start:
+    permission: bingo.command.start
+  settings:
+    permission: bingo.command.settings
+  reset:
+    permission: bingo.command.reset
+  invsee:
+    permission: bingo.command.invsee
+  top:
+  bp:
+  bingo:
+  teleporter:
+    permission: bingo.command.teleporter
+  stoptimer:
+    permission: bingo.command.stoptimer
